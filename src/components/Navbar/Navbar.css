@@ -1,0 +1,93 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.nav-links ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+.link-item a:hover{
+    color: var(--secondary-color);
+}
+.logo{
+    height: 2rem;
+}
+.nav-contact-info{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.contact-text{
+    font-weight: lighter;
+    font-size: .8rem;
+    color: var(--grey-75);
+}
+.phone-icon{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+.phone-number{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.client-area {
+    background-color: var(--tertiary-color);
+    border-radius: 4px;
+    padding: 1rem 2rem;
+    display:flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.client-area p{
+    color: white;
+}
+.client-icon{
+    fill: white;
+}
+.nav-right {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+@media screen and (max-width:1200px) {
+    .nav-links ul{
+        gap: 1rem;
+    }
+
+}
+@media screen and (max-width:1020px) {
+    .nav-links ul{
+        gap: 0.5rem;
+    }
+    nav{
+        padding: 0.5rem;
+    }
+}
+@media screen and (max-width:960px) {
+    nav{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .client-area{
+        padding: .2rem .5rem;
+    }
+    .phone-icon{
+        font-size: 1rem;
+    }
+    .phone-number,
+    .client-area p,
+    .client-icon{
+        font-size: .8rem;
+    }
+    .contact-text{
+        font-size:.6rem;
+    }
+    .client-area p{
+
+    }
+}

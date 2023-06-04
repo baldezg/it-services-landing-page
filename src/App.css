@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;600&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Geologica', sans-serif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: var(--black);
+}
+
+:root{
+  /* colors */
+  --primary-color: #0464FB;
+  --secondary-color: #0721E3;
+  --tertiary-color: #2C08FD;
+  --brand-gradient: linear-gradient(90deg, #0721E3 0%, #0464FB 100%);
+  --black: #1A1B1D;
+  --grey-75: #1A1B1DBF;
+  --grey-50: #1A1B1D80;
+  --grey-25: #1A1B1D40;
+
+
+
+}
