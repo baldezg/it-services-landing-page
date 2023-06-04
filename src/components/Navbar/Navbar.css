@@ -41,24 +41,34 @@ nav {
     display:flex;
     align-items: center;
     gap: 0.5rem;
+    box-shadow: var(--box-shadow);
 }
 .client-area p{
     color: white;
+    background: transparent;
 }
 .client-icon{
     fill: white;
+    background: transparent;
 }
 .nav-right {
     display: flex;
     justify-content: center;
     gap: 0.5rem;
 }
+.nav-toggle{
+    display: none;
+}
+.icon-menu{
+    font-size: 2rem;
+}
 
+/* ===========================================================================RESPONSIVE LAYOUT
+===========================================================================*/
 @media screen and (max-width:1200px) {
     .nav-links ul{
         gap: 1rem;
     }
-
 }
 @media screen and (max-width:1020px) {
     .nav-links ul{
@@ -69,25 +79,56 @@ nav {
     }
 }
 @media screen and (max-width:960px) {
-    nav{
-        flex-direction: column;
-        gap: 0.5rem;
+    .nav-links-column ul{
+     position: fixed;
+     inset: 10% 60% 0 0;
+     flex-direction: column;
+     padding: min(30vh, 10rem) 2rem;
+     background: var(--bg);
+     align-items: flex-start;
+     min-width:10rem;
+     display: flex;
+     gap: 2rem;
+    }
+    .nav-links ul{
+        display: none;
+    }
+    .client-contact,
+    .nav-contact-info{
+        display: none;
+    }
+    .nav-header{
+        display: flex;
+        gap: 1rem;
+    }
+    .nav-toggle {
+        display: flex;
+        align-items:center;
+        background: transparent;
+        border:none;
     }
     .client-area{
-        padding: .2rem .5rem;
+        padding: .5rem 1rem;
     }
-    .phone-icon{
+    
+}
+.nav-links-column{
+    display: flex;
+    flex-direction: column;
+    
+}
+@media screen and (max-width:480px) {
+    .icon-menu{
+        font-size: 1.5rem;
+    }
+    .logo {
         font-size: 1rem;
     }
-    .phone-number,
+    .client-area{
+        padding: .5rem 1rem;
+    }
     .client-area p,
     .client-icon{
         font-size: .8rem;
-    }
-    .contact-text{
-        font-size:.6rem;
-    }
-    .client-area p{
-
     }
 }

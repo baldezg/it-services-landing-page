@@ -1,32 +1,33 @@
-// import { useState } from 'react';
+import { useState } from 'react';
 import { links } from '../../data/data';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import logo from '../../assets/logo.svg';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { BsFillPersonFill } from 'react-icons/bs';
-// import { HiMenu } from 'react-icons/hi';
+import { HiMenu } from 'react-icons/hi';
+import { GrClose } from 'react-icons/gr';
 
 export const Navbar = () =>{
-//   const [showLinks, setShowLinks] = useState(false);
+  const [showLinks, setShowLinks] = useState(false);
 
-//   const toggleLinks = () => {
-//     setShowLinks(!showLinks);
-//   };
+  const toggleLinks = () => {
+    setShowLinks(!showLinks);
+  };
 
     return (
        <nav>
         <div className="nav-header">
+          <button className='nav-toggle' onClick={toggleLinks}>
+            {showLinks ? <GrClose className="icon-menu"/> : <HiMenu className="icon-menu"/>}
+          </button>
           <img className="logo" src={logo} alt="logo"/>
-          {/* <button className='nav-toggle' onClick={toggleLinks}>
-            <HiMenu />
-          </button> */}
         </div>
-
-        <div className="nav-links">
-            <ul className='links' >
+      
+        <div className={`${showLinks ? 'nav-links-column' : 'nav-links'}`}>
+            <ul  className='links' >
                 {links.map(link =>(
-                    <li key={link.id} className='link-item'>
+                    <li key={link.path} className='link-item'>
                         <Link to={link.path}>{link.name}</Link>
                     </li>
                 ))}
@@ -35,10 +36,10 @@ export const Navbar = () =>{
         <div className='nav-right'> 
         <div className="nav-contact-info">
             <FaPhoneAlt className='phone-icon' />
-        <div>
+        <div className="client-contact">
                <small className='contact-text'>Fale Conosco</small>
                <p className='phone-number'> (12) 3456-7890</p>
-          </div>
+        </div>
         </div>
           <div className='client-area'>
                <BsFillPersonFill className='client-icon' />

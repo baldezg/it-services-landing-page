@@ -8,10 +8,13 @@
   padding: 0;
   text-decoration: none;
   color: var(--black);
+  background: var(--bg);
 }
 
 :root{
   /* colors */
+  --bg: #F7F7F7;
+  --bg-blue: rgb(231, 240, 255);
   --primary-color: #0464FB;
   --secondary-color: #0721E3;
   --tertiary-color: #2C08FD;
@@ -21,6 +24,7 @@
   --grey-50: #1A1B1D80;
   --grey-25: #1A1B1D40;
 
-
+  /* effects */
+  --box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 
 }
