@@ -8,19 +8,19 @@ Welcome to our IT Services Landing Page repository! Here you will find the code 
 - **Modern and Professional Look:** The design of the landing page is sleek, modern, and professional, creating a positive impression for your company.
 - **Clear Call-to-Action:** The landing page includes a clear call-to-action section, guiding visitors to take the desired action, whether it's contacting your team, signing up for a service, or requesting a quote.
 - **Service Highlights:** Showcase your key IT services with visually appealing sections, providing an overview of each service, its benefits, and the problems it solves.
-- **Testimonials:** Build trust and credibility by including testimonials from satisfied clients. This helps potential customers see the value and quality of your services.
+<!-- - **Testimonials:** Build trust and credibility by including testimonials from satisfied clients. This helps potential customers see the value and quality of your services.
 - **Contact Form:** Make it easy for visitors to get in touch with you by including a contact form on the landing page. Collect their inquiries, feedback, and contact information to follow up with them effectively.
 - **Social Media Integration:** Connect your landing page to your company's social media profiles, allowing visitors to easily follow and engage with your brand on various platforms.
-
+ -->
 ### How to Use
 
-To use this repository, simply clone or download the code and assets. Customize the content, colors, and images to match your brand identity and services. You can easily modify the layout and sections to suit your specific needs. The code is well-organized and commented, making it easy to understand and customize.
+To use this repository, simply clone or download the code and assets. Customize the content, colors, and images to match your brand identity and services. You can easily modify the layout and sections to suit your specific needs. The code is well-organized, making it easy to understand and customize.
 
 ### Technologies Used
 
 - HTML5 and CSS3: The landing page is built using the latest web technologies to ensure compatibility and performance.
-- Responsive Design Frameworks: We utilize popular frameworks like Bootstrap to create a responsive and mobile-friendly layout.
-- JavaScript and jQuery: Enhance the user experience with interactive elements and animations.
+- Responsive Design Frameworks: We utilize media queries to create a responsive and mobile-friendly layout.
+- JavaScript: Enhance the user experience with interactive elements and animations.
 
 ### Contributions
 
