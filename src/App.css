@@ -15,9 +15,10 @@
   /* colors */
   --bg: #F7F7F7;
   --bg-blue: rgb(231, 240, 255);
+  --box-bg: #f4f4ed;
   --primary-color: #0464FB;
   --secondary-color: #0721E3;
-  --tertiary-color: #2C08FD;
+  --tertiary-color: #041F45;
   --brand-gradient: linear-gradient(90deg, #0721E3 0%, #0464FB 100%);
   --black: #1A1B1D;
   --grey-75: #1A1B1DBF;

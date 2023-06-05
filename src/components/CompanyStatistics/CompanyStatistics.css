@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.container > div{
+    background-color: var(--box-bg);
+    border-right: 2px solid var(--primary-color);
+    padding: 1rem 2rem;
+}
+
+.container > div > p:first-child{
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container > div > p:last-child{
+    font-weight: lighter;
+}
