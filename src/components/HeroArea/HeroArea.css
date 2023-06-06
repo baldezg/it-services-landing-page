@@ -34,6 +34,13 @@ header{
     background-color: var(--primary-color);
     color: var(--bg);
 }
+.cta-works:hover,
+.cta-contact:hover{
+    background-color:var(--bg-hover);
+    color: var(--bg);
+    box-shadow: var(--box-shadow);
+    border-color: var(--bg-hover);
+}
 .cta-contact{
     border: 1px solid var(--primary-color);
 }
