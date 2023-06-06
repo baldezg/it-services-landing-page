@@ -1,7 +1,16 @@
 .container{
     display: flex;
     justify-content: center;
-    margin: 2rem;
+    margin: 2rem 4rem;
+    box-shadow: var(--box-shadow);
+    background-color:var(--box-bg);
+    border-radius: 16px;
+
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: var(--box-shadow); */
 }
 
 .container > div{
@@ -10,12 +19,45 @@
     padding: 1rem 2rem;
 }
 
+.container > div:last-child{
+    border-right: none;
+}
+
 .container > div > p:first-child{
     color: var(--primary-color);
     font-size: 1.5rem;
     font-weight: bold;
+    background-color: inherit;
 }
 
 .container > div > p:last-child{
     font-weight: lighter;
+    background-color: inherit;
 }
+
+
+/*  */
+/* .container-top{
+    height: 50%;
+    background-color: var(--bg);
+    padding-top: 8rem;
+}
+
+.container-background {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-bottom {
+    height: 50%;
+    background-color: var(--bg-blue);
+    padding-bottom: 8rem;
+  }
+
+  .container-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+  } */

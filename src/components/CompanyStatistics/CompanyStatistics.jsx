@@ -2,6 +2,10 @@ import './CompanyStatistics.css';
 
 export const CompanyStatistics = () => {
     return (
+        // <div className='container-background'>
+        // <div className='container-top'></div>
+        // <div className='container-middle'>
+
         <div className='container'>
             <div>
                 <p>165</p>
@@ -20,5 +24,8 @@ export const CompanyStatistics = () => {
                 <p>Anos de Experiência</p>
             </div>
         </div>
+        // </div>
+        // <div className='container-bottom'></div>
+        // </div>
     )
 }
