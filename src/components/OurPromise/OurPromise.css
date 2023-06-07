@@ -1,12 +1,10 @@
 .our-promise{
     background-color: var(--bg-blue);
-    padding: 0 4rem;
+    padding: 0 4rem 2rem 4rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-
 }
-
 .our-promise h2,
 .our-promise p{
     background-color: inherit;
@@ -16,7 +14,7 @@
 }
 .our-promise p{
     font-weight: lighter;
-    font-size: .8rem;
+    font-size: .9rem;
 }
 .promise-container{
     background-color: inherit;

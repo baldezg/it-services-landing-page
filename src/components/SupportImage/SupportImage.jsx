@@ -1,9 +1,15 @@
-import team from '../../assets/images/team.svg';
+import PropTypes from 'prop-types';
+import './SupportImage.css';
 
-export const SupportImage = () => {
+export const SupportImage = ({className, alt, src}) => {
   return (
     <aside>
-        <img className="image-support"alt="equipe de desenvolvimento" src={team} />   
+        <img className={className} alt={alt} src={src} />   
     </aside>
   )
 }
+SupportImage.propTypes = {
+  className: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
+  src: PropTypes.string.isRequired,
+};

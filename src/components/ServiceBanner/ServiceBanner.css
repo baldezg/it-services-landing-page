@@ -1,0 +1,29 @@
+.banner-container{
+    display: flex;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+.banner-container main,
+.banner-container aside{
+  flex:1;
+}
+.banner-container main{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.banner-container main p{
+    font-weight: lighter;
+}
+.banner-container main a{
+    color: var(--primary-color);
+    font-style: italic;
+    font-size: 0.9rem;
+}
+.banner-container--blue,
+.banner-container--blue *{
+    background-color: var(--bg-blue);
+}
+.banner-container--blue main{
+    order: 2;
+}

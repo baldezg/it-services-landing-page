@@ -30,7 +30,6 @@ export const OurPromise = () => {
                 <h3>Preços Acessíveis</h3>
             </div>
         </div>
-        </div>
-        
+        </div>   
     )
 }

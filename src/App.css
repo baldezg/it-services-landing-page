@@ -33,3 +33,7 @@
   --box-shadow-thick: 0px 4px 4px rgba(0, 0, 0, 0.2);
 
 }
+
+h2{
+  color: var(--tertiary-color);
+}
