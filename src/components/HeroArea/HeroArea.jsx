@@ -1,6 +1,6 @@
 import './HeroArea.css';
-import team from '../../assets/images/team.svg';
 import { Button } from '../Button/Button';
+import { SupportImage } from '../SupportImage/SupportImage';
 
 export const HeroArea = () => {
     return (
@@ -15,9 +15,7 @@ export const HeroArea = () => {
             <Button className="cta-contact" text="Entre em contato conosco" />
           </section>
           </main>
-        <aside>
-                <img className="image-support"alt="equipe de desenvolvimento" src={team} />   
-        </aside>
+        <SupportImage />
         </header>
     )
 }
