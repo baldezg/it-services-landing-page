@@ -6,6 +6,7 @@
     background-color:var(--box-bg);
     border-radius: 16px;
     position: absolute;
+    padding: 2rem 0;
 }
 
 .container > div{

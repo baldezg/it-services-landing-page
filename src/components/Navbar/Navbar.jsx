@@ -28,7 +28,7 @@ export const Navbar = () =>{
             <ul  className='links' >
                 {links.map(link =>(
                     <li key={link.path} className='link-item'>
-                        <Link to={link.path}>{link.name}</Link>
+                        <Link to="/">{link.name}</Link>
                     </li>
                 ))}
             </ul>

@@ -1,0 +1,42 @@
+.footer{
+    background-color: var(--tertiary-color);
+    color: var(--box-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 1rem;
+}
+.footer *{
+    background-color: var(--tertiary-color);
+}
+.footer h2,
+.footer p{
+    color: var(--box-bg);
+    
+}
+.footer > p{
+    width: 50%;
+    text-align: center; 
+}
+.footer h2{
+    text-transform: capitalize;
+}
+.reasons{
+    display: flex;
+    gap: 1rem;
+}
+.reasons div{
+    border: 1px solid var(--box-bg);
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    min-width: 33%;
+}
+.reasons-icon{
+    font-size: 2rem;
+    fill: var(--box-bg);
+}

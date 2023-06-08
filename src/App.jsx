@@ -6,6 +6,7 @@ import { OurPromise } from './components/OurPromise/OurPromise';
 import { ServiceBanner } from './components/ServiceBanner/ServiceBanner';
 import { SupportImage } from './components/SupportImage/SupportImage';
 import { CtaBanner } from './components/CtaBanner/CtaBanner';
+import { Footer } from './components/Footer/Footer';
 
 import team from './assets/images/team.svg';
 
@@ -47,6 +48,7 @@ function App() {
       <SupportImage className="banner-image" src={team} alt="team" />
     </ServiceBanner>
     <CtaBanner />
+    <Footer />
     </>
   )
 }
