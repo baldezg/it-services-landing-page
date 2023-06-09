@@ -53,3 +53,8 @@ aside{
     align-items:center;
     flex:1;
 }
+@media screen and (max-width: 992px) {
+    header > aside{
+        display:none;
+    }
+}

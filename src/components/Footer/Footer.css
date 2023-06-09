@@ -11,14 +11,15 @@
 .footer *{
     background-color: var(--tertiary-color);
 }
+.footer h2{
+    text-align: center;
+}
 .footer h2,
 .footer p{
     color: var(--box-bg);
-    
 }
 .footer > p{
-    width: 50%;
-    text-align: center; 
+    padding: 0 12rem;
 }
 .footer h2{
     text-transform: capitalize;
@@ -32,11 +33,27 @@
     padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 1rem;
-    min-width: 33%;
+    flex: 1 0 20%;
 }
 .reasons-icon{
     font-size: 2rem;
     fill: var(--box-bg);
+}
+
+@media screen and (max-width: 992px){
+    .footer > p{
+        padding: 0 10rem;
+    }
+}
+@media screen and (max-width: 768px){
+    .footer > p{
+        padding: 0 10%;
+    }
+}
+@media screen and (max-width: 576px){
+    .reasons div{
+        align-items: center;
+        padding: .5rem 1rem;
+    }
 }

@@ -17,7 +17,7 @@ export const ServiceBanner = ({className, title, paragraph, children}) => {
 }
 
 ServiceBanner.propTypes = {
-    className: PropTypes.string.isRequired,
+    className: PropTypes.string,
     title: PropTypes.string.isRequired,
     paragraph: PropTypes.string.isRequired,
     children: PropTypes.node

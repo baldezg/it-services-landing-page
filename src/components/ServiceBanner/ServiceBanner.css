@@ -27,3 +27,15 @@
 .banner-container--blue main{
     order: 2;
 }
+.banner-container aside {
+    justify-content: flex-end;
+}
+.banner-container--blue aside{
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 768px){
+    .banner-container{
+        padding: .5rem 1rem;
+    }
+}

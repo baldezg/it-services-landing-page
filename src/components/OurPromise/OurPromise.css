@@ -40,3 +40,22 @@
     font-size: .8rem;
     font-weight: lighter;
 }
+
+@media screen and (max-width: 768px){
+    .promise-container{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .container{
+        margin: 0 1rem;
+        padding: 1rem 0;
+    }
+    .container > div{
+        padding: .5rem 1rem;
+    }
+}
+@media screen and (max-width: 468px){
+    .container > div{
+        padding: .5rem;
+    }
+}
