@@ -2,6 +2,12 @@
 
 Welcome to our IT Services Landing Page repository! Here you will find the code and assets needed to create an engaging and visually appealing landing page for IT services. This landing page is designed to showcase the range of services your company offers, attract potential clients, and provide them with all the necessary information they need to make informed decisions.
 
+### Screenshot
+![localhost_5173_](https://github.com/baldezg/it-services-landing-page/assets/119074412/de8f5462-6478-4c12-8f1f-408e667c24a8)
+
+### Link to the Home Page
+You can access the home page on this [link](https://it-services-landing-page.vercel.app/)
+
 ### Features
 
 - **Responsive Design:** Our landing page is built with responsiveness in mind, ensuring that it looks great on all devices, from desktops to mobile phones.
@@ -18,9 +24,9 @@ To use this repository, simply clone or download the code and assets. Customize 
 
 ### Technologies Used
 
-- HTML5 and CSS3: The landing page is built using the latest web technologies to ensure compatibility and performance.
-- Responsive Design Frameworks: We utilize media queries to create a responsive and mobile-friendly layout.
-- JavaScript: Enhance the user experience with interactive elements and animations.
+- React: The landing page is built using React to ensure  exceptional performance and interactivity.
+- React Router: With React Router, the landing page can have multiple pages or views without the need for full page reloads.
+- CSS3: I utilized some capabilities of CSS3 like Flexbox to control the page's layout and media queries to create a responsive and mobile-friendly layout.
 
 ### Contributions
 
