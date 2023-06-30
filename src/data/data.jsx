@@ -1,15 +1,15 @@
 export const links = [
     {
         path: '/home',
-        name: 'Home',
+        name: 'Início',
     },
     {
         path: '/services',
-        name: 'Services',
+        name: 'Serviços',
     },
     {
         path: '/portfolio',
-        name: 'Portfolio',
+        name: 'Portfólio',
     },
     {
         path: '/blog',
@@ -17,14 +17,14 @@ export const links = [
     },
     {
         path: '/pages',
-        name: 'Pages',
+        name: 'Páginas',
     },
     {
         path: '/elements',
-        name: 'Elements',
+        name: 'Elementos',
     },
     {
         path: '/contact',
-        name: 'Contact',
+        name: 'Contato',
     }
 ]
