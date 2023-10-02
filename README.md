@@ -25,7 +25,6 @@ To use this repository, simply clone or download the code and assets. Customize 
 ### Technologies Used
 
 - React: The landing page is built using React to ensure  exceptional performance and interactivity.
-- React Router: With React Router, the landing page can have multiple pages or views without the need for full page reloads.
 - CSS3: I utilized some capabilities of CSS3 like Flexbox to control the page's layout and media queries to create a responsive and mobile-friendly layout.
 
 ### Contributions
